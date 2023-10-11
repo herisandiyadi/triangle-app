@@ -21,7 +21,7 @@ String detectTriangle(num sideA, num sideB, num sideC) {
   }
 
   if (sides[0] + sides[1] <= sides[2]) {
-    throw Exception('This is Inequal Triangle');
+    throw Exception('This is Inequal Segitiga');
   }
 
   return "Segitiga Sembarang";
